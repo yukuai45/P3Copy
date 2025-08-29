@@ -2620,7 +2620,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 118.9
+        value: 92.7
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2704,7 +2704,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -30
+        value: -14.8
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2746,7 +2746,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -98
+        value: -95.5
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2788,7 +2788,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -180
+        value: -182.1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2872,7 +2872,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -332.3
+        value: -350.4
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2914,7 +2914,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -422.3
+        value: -415.9
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2956,7 +2956,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -523.4
+        value: -528.9
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4573,7 +4573,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 165.9
+        value: 91.2
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4636,7 +4636,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 255.5
+        value: 258.9
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4657,7 +4657,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 249.1
+        value: 196.8
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4678,7 +4678,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 222.7
+        value: 208.3
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4699,7 +4699,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 239.4
+        value: 228.2
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4720,7 +4720,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 314.8
+        value: 304.6
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4795,6 +4795,48 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
     path: catalogue/ undercoat6
+    classID: 224
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 327.9
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AnchoredPosition.x
+    path: catalogue/ undercoat9
+    classID: 224
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 238.4
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AnchoredPosition.x
+    path: catalogue/ undercoat3
     classID: 224
     script: {fileID: 0}
     flags: 0
@@ -6798,6 +6840,24 @@ AnimationClip:
     - serializedVersion: 2
       path: 2885730760
       attribute: 2033536083
+      script: {fileID: 0}
+      typeID: 224
+      customType: 28
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 1019206745
+      attribute: 1460864421
+      script: {fileID: 0}
+      typeID: 224
+      customType: 28
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 3697947975
+      attribute: 1460864421
       script: {fileID: 0}
       typeID: 224
       customType: 28
@@ -9709,7 +9769,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 118.9
+        value: 92.7
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -9793,7 +9853,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -30
+        value: -14.8
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -9835,7 +9895,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -98
+        value: -95.5
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -9877,7 +9937,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -180
+        value: -182.1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -9961,7 +10021,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -332.3
+        value: -350.4
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -10003,7 +10063,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -422.3
+        value: -415.9
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -10045,7 +10105,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -523.4
+        value: -528.9
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -12418,7 +12478,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 165.9
+        value: 91.2
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -13516,7 +13576,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 255.5
+        value: 258.9
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -13663,7 +13723,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 249.1
+        value: 196.8
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -13684,7 +13744,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 222.7
+        value: 208.3
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -13705,7 +13765,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 239.4
+        value: 228.2
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -13726,7 +13786,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 314.8
+        value: 304.6
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -13801,6 +13861,48 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
     path: catalogue/ undercoat6
+    classID: 224
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 327.9
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AnchoredPosition.x
+    path: catalogue/ undercoat9
+    classID: 224
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 238.4
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AnchoredPosition.x
+    path: catalogue/ undercoat3
     classID: 224
     script: {fileID: 0}
     flags: 0
