@@ -24,9 +24,9 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -50,7 +50,7 @@ LightmapSettings:
     m_IndirectOutputScale: 1
     m_AlbedoBoost: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
+    m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 12
@@ -122,6 +122,8 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
+=======
 --- !u!1 &22769289
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &22769290
 RectTransform:
   m_ObjectHideFlags: 0
@@ -589,7 +591,7 @@ MonoBehaviour:
   - stageName: Stage1
     timeline: {fileID: 926839435}
     stageObjects:
-    - {fileID: 22769289}
+    - {fileID: 926839433}
     clickTarget: {fileID: 1914914749}
   - stageName: Stage2
     timeline: {fileID: 1914914751}
@@ -601,7 +603,6 @@ MonoBehaviour:
   - stageName: Stage3
     timeline: {fileID: 1272471269}
     stageObjects:
-    - {fileID: 22769289}
     - {fileID: 1294341570}
     clickTarget: {fileID: 926839433}
 --- !u!4 &102740410
@@ -6226,7 +6227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260423177}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.016023256, w: 0.9998717}
+  m_LocalRotation: {x: -0, y: -0, z: -0.016023254, w: 0.9998716}
   m_LocalPosition: {x: -636, y: -465, z: 0}
   m_LocalScale: {x: 101, y: 101, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12789,8 +12790,8 @@ SpriteMask:
   m_BackSortingLayerID: 0
   m_FrontSortingLayer: 0
   m_BackSortingLayer: 0
-  m_FrontSortingOrder: 7
-  m_BackSortingOrder: 0
+  m_FrontSortingOrder: 5
+  m_BackSortingOrder: 5
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
 --- !u!1 &452249145
@@ -18688,7 +18689,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 720407587}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbc21a337ad8def41adca8f3c1595a0e, type: 3}
+  m_Script: {fileID: 11500000, guid: 6e3934dd7d731a74eaeacb6121708733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   stageManager: {fileID: 102740409}
@@ -34988,7 +34989,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: f177e83ead43ed148b9238c53f0988f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -35989,7 +35990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1300228950
 RectTransform:
   m_ObjectHideFlags: 0
@@ -46711,7 +46712,6 @@ GameObject:
   - component: {fileID: 1650891521}
   - component: {fileID: 1650891520}
   - component: {fileID: 1650891523}
-  - component: {fileID: 1650891524}
   m_Layer: 5
   m_Name: ' undercoat1'
   m_TagString: Untagged
@@ -46793,18 +46793,6 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: "\u5B57"
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1650891524}
-        m_TargetAssemblyTypeName: ClickOpenTimeline, Assembly-CSharp
-        m_MethodName: OnButtonClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1650891521
@@ -46890,20 +46878,6 @@ MonoBehaviour:
             m_StringArgument: "\u7A7A"
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &1650891524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1650891518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e3934dd7d731a74eaeacb6121708733, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stageManager: {fileID: 102740409}
-  targetStageIndex: 1
 --- !u!1 &1693004001
 GameObject:
   m_ObjectHideFlags: 0
@@ -53053,6 +53027,10 @@ PlayableDirector:
     value: {fileID: 1092082536}
   - key: {fileID: -4923392966979419898, guid: 7abf3f280b4e18d4187ab158f1730b21, type: 2}
     value: {fileID: 1092082538}
+  - key: {fileID: -2402163077495712546, guid: 7abf3f280b4e18d4187ab158f1730b21, type: 2}
+    value: {fileID: 22769292}
+  - key: {fileID: -2552152544933638681, guid: 7abf3f280b4e18d4187ab158f1730b21, type: 2}
+    value: {fileID: 22769289}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1952229758
@@ -53072,7 +53050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1952229759
 RectTransform:
   m_ObjectHideFlags: 0
@@ -54227,12 +54205,8 @@ MonoBehaviour:
             m_StringArgument: "\u7A7A"
             m_BoolArgument: 0
           m_CallState: 2
+>>>>>>> parent of 7b7e4c3 (杨童童——合并前提交)
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
-  m_Roots:
-  - {fileID: 1295904075}
-  - {fileID: 1979592897}
-  - {fileID: 272517844}
-  - {fileID: 68560100}
-  - {fileID: 102740410}
+  m_Roots: []
