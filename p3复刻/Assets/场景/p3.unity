@@ -122,8 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &22769289
 GameObject:
   m_ObjectHideFlags: 0
@@ -54205,7 +54203,6 @@ MonoBehaviour:
             m_StringArgument: "\u7A7A"
             m_BoolArgument: 0
           m_CallState: 2
->>>>>>> parent of 7b7e4c3 (杨童童——合并前提交)
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
