@@ -50,7 +50,7 @@ public class SkillInteraction : MonoBehaviour
     public StageManager stageManager;
     public int targetStageIndex = 1;  // 默认切换到下一个阶段
 
-    private void OnMouseDown()
+    public void OnMouseDown()
     {
         if (stageManager == null)
         {
