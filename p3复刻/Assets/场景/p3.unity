@@ -132,13 +132,15 @@ GameObject:
   m_Component:
   - component: {fileID: 9338964}
   - component: {fileID: 9338965}
+  - component: {fileID: 9338966}
+  - component: {fileID: 9338967}
   m_Layer: 5
   m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &9338964
 RectTransform:
   m_ObjectHideFlags: 0
@@ -187,6 +189,36 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &9338966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9338963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a395f8ba092c24419c56633fb3e25a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageManager: {fileID: 102740409}
+  targetStageIndex: 7
+  keyToPress: 32
+--- !u!114 &9338967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9338963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a395f8ba092c24419c56633fb3e25a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageManager: {fileID: 102740409}
+  targetStageIndex: 8
+  keyToPress: 27
 --- !u!1 &13182580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1417,19 +1449,53 @@ MonoBehaviour:
     timeline: {fileID: 926839435}
     stageObjects:
     - {fileID: 926839433}
-    clickTarget: {fileID: 1914914749}
+    clickTarget: {fileID: 0}
   - stageName: Stage2
     timeline: {fileID: 1914914751}
     stageObjects:
     - {fileID: 22769289}
     - {fileID: 1952229758}
     - {fileID: 1092082536}
-    clickTarget: {fileID: 1272471267}
+    clickTarget: {fileID: 0}
   - stageName: Stage3
     timeline: {fileID: 1272471269}
     stageObjects:
+    - {fileID: 22769289}
     - {fileID: 1294341570}
-    clickTarget: {fileID: 926839433}
+    clickTarget: {fileID: 0}
+  - stageName: Stage4
+    timeline: {fileID: 1782957172}
+    stageObjects:
+    - {fileID: 1952229758}
+    - {fileID: 980992588}
+    clickTarget: {fileID: 0}
+  - stageName: Stage5
+    timeline: {fileID: 895328219}
+    stageObjects:
+    - {fileID: 22769289}
+    - {fileID: 1156256843}
+    clickTarget: {fileID: 0}
+  - stageName: Stage6
+    timeline: {fileID: 1446188334}
+    stageObjects:
+    - {fileID: 9338963}
+    clickTarget: {fileID: 0}
+  - stageName: Stage7
+    timeline: {fileID: 2090726176}
+    stageObjects:
+    - {fileID: 9338963}
+    clickTarget: {fileID: 0}
+  - stageName: Stage8
+    timeline: {fileID: 362977998}
+    stageObjects:
+    - {fileID: 9338963}
+    clickTarget: {fileID: 0}
+  - stageName: Stage9
+    timeline: {fileID: 1451872875}
+    stageObjects:
+    - {fileID: 22769289}
+    - {fileID: 926023442}
+    clickTarget: {fileID: 0}
 --- !u!4 &102740410
 Transform:
   m_ObjectHideFlags: 0
@@ -8230,6 +8296,7 @@ GameObject:
   - component: {fileID: 277835357}
   - component: {fileID: 277835356}
   - component: {fileID: 277835359}
+  - component: {fileID: 277835360}
   m_Layer: 5
   m_Name: ' undercoat3'
   m_TagString: Untagged
@@ -8311,6 +8378,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: "\u5B57 3"
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 277835360}
+        m_TargetAssemblyTypeName: SkillInteraction, Assembly-CSharp
+        m_MethodName: OnMouseDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &277835357
@@ -8412,6 +8491,20 @@ MonoBehaviour:
             m_StringArgument: "\u7A7A"
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &277835360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277835354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e3934dd7d731a74eaeacb6121708733, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageManager: {fileID: 102740409}
+  targetStageIndex: 5
 --- !u!1 &290713974
 GameObject:
   m_ObjectHideFlags: 0
@@ -14640,6 +14733,8 @@ PlayableDirector:
     value: {fileID: 9338965}
   - key: {fileID: -6442564331762893261, guid: f315ede3b0a3eb54b907beab86f560c4, type: 2}
     value: {fileID: 9338963}
+  - key: {fileID: 8401596160179012688, guid: f315ede3b0a3eb54b907beab86f560c4, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &375624673
@@ -34583,6 +34678,8 @@ PlayableDirector:
     value: {fileID: 22769289}
   - key: {fileID: -1637978389977799837, guid: 9a0329a05a772b640b48657f8deda3df, type: 2}
     value: {fileID: 22769292}
+  - key: {fileID: -2875476129208504195, guid: 9a0329a05a772b640b48657f8deda3df, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &913295528
@@ -34834,6 +34931,8 @@ PlayableDirector:
     value: {fileID: 22769292}
   - key: {fileID: 9211289820652526394, guid: 1279f74ac306be34eaf0880ed0c1a6e6, type: 2}
     value: {fileID: 22769289}
+  - key: {fileID: 7955646739396331727, guid: 1279f74ac306be34eaf0880ed0c1a6e6, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &930731341
@@ -40420,6 +40519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 980992589}
   - component: {fileID: 980992590}
+  - component: {fileID: 980992591}
   m_Layer: 5
   m_Name: 5
   m_TagString: Untagged
@@ -40473,6 +40573,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &980992591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980992588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a395f8ba092c24419c56633fb3e25a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageManager: {fileID: 102740409}
+  targetStageIndex: 4
+  keyToPress: 27
 --- !u!1 &984155483
 GameObject:
   m_ObjectHideFlags: 0
@@ -42002,6 +42117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageManager: {fileID: 102740409}
   targetStageIndex: 2
+  keyToPress: 27
 --- !u!1 &1095047643
 GameObject:
   m_ObjectHideFlags: 0
@@ -43232,6 +43348,8 @@ PlayableDirector:
     value: {fileID: 22769289}
   - key: {fileID: -1637978389977799837, guid: 9a0329a05a772b640b48657f8deda3df, type: 2}
     value: {fileID: 22769292}
+  - key: {fileID: -2875476129208504195, guid: 9a0329a05a772b640b48657f8deda3df, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1274349992
@@ -45550,6 +45668,8 @@ PlayableDirector:
     value: {fileID: 9338963}
   - key: {fileID: 6674321836401262028, guid: d8356d989ff09d34c9d4dff267dee825, type: 2}
     value: {fileID: 9338965}
+  - key: {fileID: 4216284765498100619, guid: d8356d989ff09d34c9d4dff267dee825, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1451872873
@@ -45617,6 +45737,10 @@ PlayableDirector:
     value: {fileID: 926023444}
   - key: {fileID: -484908842767696838, guid: b1daa38eb8b601646873f55b14d5c17b, type: 2}
     value: {fileID: 22769289}
+  - key: {fileID: 1902319400582670569, guid: b1daa38eb8b601646873f55b14d5c17b, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -1765236974540758649, guid: b1daa38eb8b601646873f55b14d5c17b, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1459752010
@@ -63244,6 +63368,8 @@ PlayableDirector:
     value: {fileID: 1952229758}
   - key: {fileID: -3504857689879239998, guid: 52593d0dd69336c41af9bf2f1d54e570, type: 2}
     value: {fileID: 1952229761}
+  - key: {fileID: 1496678372353909166, guid: 52593d0dd69336c41af9bf2f1d54e570, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1785922596
@@ -63752,6 +63878,7 @@ GameObject:
   - component: {fileID: 1846510170}
   - component: {fileID: 1846510169}
   - component: {fileID: 1846510172}
+  - component: {fileID: 1846510173}
   m_Layer: 5
   m_Name: ' undercoat2'
   m_TagString: Untagged
@@ -63833,6 +63960,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: "\u5B57 2"
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1846510173}
+        m_TargetAssemblyTypeName: SkillInteraction, Assembly-CSharp
+        m_MethodName: OnMouseDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1846510170
@@ -63934,6 +64073,20 @@ MonoBehaviour:
             m_StringArgument: "\u7A7A"
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1846510173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846510167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e3934dd7d731a74eaeacb6121708733, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageManager: {fileID: 102740409}
+  targetStageIndex: 3
 --- !u!1 &1872902786
 GameObject:
   m_ObjectHideFlags: 0
@@ -64545,6 +64698,8 @@ PlayableDirector:
     value: {fileID: 22769292}
   - key: {fileID: -2552152544933638681, guid: 7abf3f280b4e18d4187ab158f1730b21, type: 2}
     value: {fileID: 22769289}
+  - key: {fileID: -7407190486744801635, guid: 7abf3f280b4e18d4187ab158f1730b21, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1937643180
@@ -66202,6 +66357,8 @@ PlayableDirector:
     value: {fileID: 9338965}
   - key: {fileID: -4086746238369824831, guid: 7c180ff27d68a2e45a2f3a8217dfd611, type: 2}
     value: {fileID: 9338963}
+  - key: {fileID: -5367164404017130622, guid: 7c180ff27d68a2e45a2f3a8217dfd611, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &2094905962
@@ -66449,6 +66606,7 @@ GameObject:
   - component: {fileID: 2130056183}
   - component: {fileID: 2130056182}
   - component: {fileID: 2130056181}
+  - component: {fileID: 2130056186}
   m_Layer: 5
   m_Name: button1
   m_TagString: Untagged
@@ -66555,7 +66713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -66610,6 +66768,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2130056186}
+        m_TargetAssemblyTypeName: SkillInteraction, Assembly-CSharp
+        m_MethodName: OnMouseDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2130056184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66648,6 +66818,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2130056179}
   m_CullTransparentMesh: 1
+--- !u!114 &2130056186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130056179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e3934dd7d731a74eaeacb6121708733, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageManager: {fileID: 102740409}
+  targetStageIndex: 6
 --- !u!1 &2140891294
 GameObject:
   m_ObjectHideFlags: 0

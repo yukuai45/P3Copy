@@ -9,7 +9,6 @@ public class StageManager : MonoBehaviour
         public string stageName;                    // 阶段名称
         public PlayableDirector timeline;           // 阶段Timeline
         public GameObject[] stageObjects;           // 阶段相关的所有物体
-        public GameObject clickTarget;              // 点击触发下一阶段的物体
     }
 
     public Stage[] stages;                         // 所有阶段

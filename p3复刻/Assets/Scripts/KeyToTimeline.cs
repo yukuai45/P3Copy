@@ -4,11 +4,12 @@ public class KeyToTimeline : MonoBehaviour
 {
     public StageManager stageManager;
     public int targetStageIndex;  // 要切换到的阶段索引
+    public KeyCode keyToPress;
     
     void Update()
     {
         // 检测是否按下 ESC 键
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(keyToPress))
         {
             if (stageManager == null)
             {
